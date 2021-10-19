@@ -2,7 +2,7 @@
  Real-time visual mapping of trace-route geo-location data.
  
  ## Usage
-[image]
+ [DemoTrace](https://github.com/bleichroeder/TraceRouteMapper/blob/main/Demo/googTracec.JPG?raw=true)
  ### Basic Controls
 Input IP address and start trace using the "TraceRoute" button.\
 Navigate the map by right-click + dragging.\
