@@ -20,7 +20,7 @@ namespace TraceRouteMapper.DataAccess
                     using (WebClient c = new WebClient())
                     {
                         response = JsonConvert.DeserializeObject<GeoLocation>(
-                            c.DownloadString("http://api.ipstack.com/" + ipAddress + "?access_key=1217ac6cd12544c8c8feead11bf7942d" + "&hostname=1")
+                            c.DownloadString("http://api.ipstack.com/" + ipAddress + "?access_key=[ACCESSKEY]" + "&hostname=1")
                             );
                     }
                     success = true;
